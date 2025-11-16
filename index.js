@@ -15,6 +15,11 @@ function isPalindrome(word) {
   return word === reversed;
 }
 
+function calculateDiscountedPrice(originalPrice, discountPercentage) {
+  const discount = originalPrice * (discountPercentage / 100);
+  return originalPrice - discount;
+}
+
 
 
 
