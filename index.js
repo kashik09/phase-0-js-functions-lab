@@ -10,6 +10,11 @@ function findMaximum(num1, num2) {
   return num1 > num2 ? num1 : num2;
 }
 
+function isPalindrome(word) {
+  const reversed = word.split("").reverse().join("");
+  return word === reversed;
+}
+
 
 
 
